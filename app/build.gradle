@@ -11,6 +11,9 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    dependencies {
+        testImplementation 'junit:junit:4.12'
+    }
     buildTypes {
         release {
             minifyEnabled false

@@ -58,7 +58,8 @@ public class TrafficLightActivity extends AppCompatActivity {
             String redEnd = new java.text.SimpleDateFormat("HH:mm:ss").format(new java.util.Date (trafficLight.getRedEnd() * 1000));
             redEndTextView.setText(redEnd);
             adapter.close();
-        } else {
+        }
+        else {
             delButton.setVisibility(View.GONE);
             saveButton.setVisibility(View.GONE);
         }

@@ -75,7 +75,8 @@ public class MainActivity extends AppCompatActivity {
                     List<TrafficLight> trafficLights = adapter.getTrafficLights();
                     arrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, trafficLights);
                     trafficLightList.setAdapter(arrayAdapter);
-                    adapter.close();}
+                    adapter.close();
+                }
             });
         }
     }

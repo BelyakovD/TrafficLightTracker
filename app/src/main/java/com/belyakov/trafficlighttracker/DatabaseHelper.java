@@ -15,7 +15,7 @@ import java.io.OutputStream;
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static String DB_PATH;
     private static final String DATABASE_NAME = "TrafficLight.db";
-    private static final int SCHEMA = 1; // версия базы данных
+    private static final int SCHEMA = 1;
     static final String TABLE = "TrafficLight";
 
     public static final String COLUMN_ID = "_id";

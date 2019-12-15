@@ -63,6 +63,7 @@ public class TrafficLight {
 
     @Override
     public String toString() {
+
         long epoch = System.currentTimeMillis()/1000;
         long green = this.greenStart;
         long red = this.greenEnd;

@@ -53,6 +53,7 @@ public class DatabaseAdapter {
     }
 
     public long getCount(){
+
         return DatabaseUtils.queryNumEntries(database, DatabaseHelper.TABLE);
     }
 
